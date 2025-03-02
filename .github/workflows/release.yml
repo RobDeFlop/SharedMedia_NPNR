@@ -1,13 +1,14 @@
 name: Package and release
-on:
+
+on: 
   push:
-    tags:
-      - '**'
+    branches:
+      - main
 
 jobs:
   release:
     runs-on: ubuntu-22.04
-    
+
     env:
       GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
 
