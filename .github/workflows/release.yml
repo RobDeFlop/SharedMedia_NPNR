@@ -1,17 +1,15 @@
 name: Package and release
-
 on:
   push:
     tags:
       - '**'
+
 jobs:
   release:
     permissions: write-all
     runs-on: ubuntu-22.04
-
     env:
       GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
-
     steps:
       - name: Clone project
         uses: actions/checkout@v4.2.2
