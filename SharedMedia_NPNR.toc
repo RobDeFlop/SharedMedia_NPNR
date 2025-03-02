@@ -1,0 +1,7 @@
+## Interface: 110100
+## Title: NPNR SharedMedia
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+embeds.xml
+MediaPaths.lua 
