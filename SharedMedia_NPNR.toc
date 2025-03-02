@@ -1,5 +1,7 @@
 ## Interface: 110100
 ## Title: NPNR SharedMedia
+## Version: 20251.0
+## Notes: A NPNR SharedMedia pack
 
 libs\LibStub\LibStub.lua
 libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
