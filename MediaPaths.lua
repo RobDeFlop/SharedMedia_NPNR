@@ -10,3 +10,5 @@ local MediaType_Sound = LSM.MediaType.SOUND
 --- Sounds
 LSM:Register(MediaType_Sound, "|cffe8c723<NPNR>|r Frontal",
     "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Sounds\\Frontal.ogg")
+LSM:Register(MediaType_Sound, "|cffe8c723<NPNR>|r BossDamage",
+    "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Sounds\\Lorgok_BossDmg.ogg")
