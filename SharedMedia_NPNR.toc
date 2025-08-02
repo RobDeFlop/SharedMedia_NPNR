@@ -1,6 +1,6 @@
-## Interface: 110100
+## Interface: 110107
 ## Title: NPNR SharedMedia
-## Version: 20251.0
+## Version: 20251.1
 ## Notes: A NPNR SharedMedia pack
 
 libs\LibStub\LibStub.lua

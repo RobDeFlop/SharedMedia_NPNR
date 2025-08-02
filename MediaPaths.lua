@@ -12,3 +12,11 @@ LSM:Register(MediaType_Sound, "|cffe8c723<NPNR>|r Frontal",
     "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Sounds\\Frontal.ogg")
 LSM:Register(MediaType_Sound, "|cffe8c723<NPNR>|r BossDamage",
     "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Sounds\\Lorgok_BossDmg.ogg")
+
+--- Textures
+LSM:Register(MediaType_Statusbar, "AtrocityUI",
+    "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Textures\\Atrocity.tga")
+LSM:Register(MediaType_Statusbar, "Kait",
+    "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Textures\\Kait.tga")
+LSM:Register(MediaType_Statusbar, "NaowhDetails",
+    "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Textures\\NaowhDetails.tga")
