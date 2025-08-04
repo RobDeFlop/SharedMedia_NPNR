@@ -20,3 +20,10 @@ LSM:Register(MediaType_Statusbar, "Kait",
     "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Textures\\Kait.tga")
 LSM:Register(MediaType_Statusbar, "NaowhDetails",
     "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Textures\\NaowhDetails.tga")
+
+
+C_Timer.After(1, function()
+    SlashCmdList["key"] = nil
+    print("NPNR: Disabled bw /key")
+end
+)
