@@ -21,9 +21,9 @@ LSM:Register(MediaType_Statusbar, "Kait",
 LSM:Register(MediaType_Statusbar, "NaowhDetails",
     "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Textures\\NaowhDetails.tga")
 
-
-C_Timer.After(1, function()
-    SlashCmdList["key"] = nil
-    print("NPNR: Disabled bw /key")
+--- overwrites bigwigs /key command because it is shit
+C_Timer.After(0.1, function()
+    SlashCmdList["key"] = SlashCmdList["KEYSTONE"]
+    print("|cffe8c723NPNR:|r Overwritten BigWigs command.")
 end
 )
