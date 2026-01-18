@@ -1,25 +1,32 @@
 local LSM = LibStub("LibSharedMedia-3.0")
 
-local MediaType_Font = LSM.MediaType.FONT
-local MediaType_Statusbar = LSM.MediaType.STATUSBAR
-local MediaType_Border = LSM.MediaType.BORDER
-local MediaType_Background = LSM.MediaType.BACKGROUND
-local MediaType_Sound = LSM.MediaType.SOUND
-
-
 --- Sounds
-LSM:Register(MediaType_Sound, "|cffe8c723<NPNR>|r Frontal",
+LSM:Register(LSM.MediaType.SOUND, "|cffe8c723<NPNR>|r Frontal",
     "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Sounds\\Frontal.ogg")
-LSM:Register(MediaType_Sound, "|cffe8c723<NPNR>|r BossDamage",
+LSM:Register(LSM.MediaType.SOUND, "|cffe8c723<NPNR>|r BossDamage",
     "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Sounds\\Lorgok_BossDmg.ogg")
 
 --- Textures
-LSM:Register(MediaType_Statusbar, "AtrocityUI",
+LSM:Register(LSM.MediaType.STATUSBAR, "Atrocity",
     "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Textures\\Atrocity.tga")
-LSM:Register(MediaType_Statusbar, "Kait",
+LSM:Register(LSM.MediaType.STATUSBAR, "Kait",
     "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Textures\\Kait.tga")
-LSM:Register(MediaType_Statusbar, "NaowhDetails",
+LSM:Register(LSM.MediaType.STATUSBAR, "NaowhDetails",
     "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Textures\\NaowhDetails.tga")
+
+--- Fonts
+LSM:Register(LSM.MediaType.FONT, "Expressway",
+    "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Fonts\\Expressway.TTF")
+LSM:Register(LSM.MediaType.FONT, "Naowh",
+    "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Fonts\\Naowh.ttf")
+LSM:Register(LSM.MediaType.FONT, "NaowhAsia",
+    "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Fonts\\NaowhAsia.ttf")
+LSM:Register(LSM.MediaType.FONT, "GothamNarrowUltra",
+    "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Fonts\\GothamNarrowUltra.ttf")
+LSM:Register(LSM.MediaType.FONT, "GothamNarrowUltraAsia",
+    "Interface\\AddOns\\SharedMedia_NPNR\\Media\\Fonts\\GothamNarrowUltraAsia.ttf")
+
+
 
 --- overwrites bigwigs /key command because it is shit
 C_Timer.After(0.1, function()
